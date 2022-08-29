@@ -15,7 +15,7 @@ require('intl/locale-data/jsonp/it.js');
 require('intl/locale-data/jsonp/th.js');
 require('intl/locale-data/jsonp/ru.js');
 
-require('expose?IntlMessageFormat!intl-messageformat');
+require('expose-loader?IntlMessageFormat!intl-messageformat');
 require('intl-messageformat/dist/locale-data/en');
 require('intl-messageformat/dist/locale-data/es');
 require('intl-messageformat/dist/locale-data/fr');
